@@ -25,8 +25,8 @@ const isActive = (path: string) => {
       <div class="relative">
         <ul class="isolate min-w-0 flex items-center gap-x-1">
           <li v-for="link in navigation" :key="link.path">
-            <a 
-              :href="link.path" 
+            <NuxtLink 
+              :to="link.path" 
               :class="[
                 'group relative w-full flex items-center gap-1.5 font-medium text-md transition-all duration-200 ease-in-out rounded-lg px-3 py-2',
                 isActive(link.path) 
@@ -35,7 +35,7 @@ const isActive = (path: string) => {
               ]"
             >
               {{ link.title }}
-            </a>
+            </NuxtLink>
           </li>
           <ColorModeSwitch />
         </ul>
