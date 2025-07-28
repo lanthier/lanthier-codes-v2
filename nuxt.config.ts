@@ -19,6 +19,12 @@ export default defineNuxtConfig({
     }
   },
 
+  // GitHub Pages configuration
+  app: {
+    baseURL: process.env.NODE_ENV === 'production' ? '/lanthier-codes-v2/' : '/',
+    buildAssetsDir: '/_nuxt/',
+  },
+
   content: {
     build: {
       markdown: {

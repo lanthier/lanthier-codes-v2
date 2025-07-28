@@ -49,6 +49,8 @@ jobs:
 
       - name: Build
         run: pnpm generate
+        env:
+          NODE_ENV: production
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
