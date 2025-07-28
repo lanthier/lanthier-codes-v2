@@ -22,7 +22,7 @@ description: Alex Lanthier - Senior Software Engineer
 
   <!-- Description -->
   <p class="text-lg text-gray-600 dark:text-gray-300 mb-8 leading-relaxed max-w-lg">
-    Passionate software engineer and amatuer writer. Based in Chicago, bringing ideas to life through code and words.
+    Passionate software engineer and amateur writer. Based in Chicago, bringing ideas to life through code and words.
   </p>
 
   <!-- Social Links -->
