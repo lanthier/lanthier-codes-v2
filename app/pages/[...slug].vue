@@ -26,7 +26,7 @@ useSeoMeta(page.value?.seo || {})
     <ContentRenderer
       v-if="page"
       :value="page"
-      class="prose dark:prose-invert prose-pre:bg-gray-100 dark:prose-pre:bg-gray-900"
+      class="prose dark:prose-invert prose-pre:bg-gray-100 dark:prose-pre:bg-gray-900 prose-pre:overflow-x-auto prose-pre:max-w-full prose-img:max-w-full prose-img:h-auto prose-pre:text-sm sm:prose-pre:text-base"
     />
   </NuxtLayout>
 </template>

@@ -1,6 +1,13 @@
 ---
-title: Open Weather API Tutorial
-description: How to make API calls using AJAX, Fetch, and XHR with the Open Weather API
+title: Open Weather API
+description: How to use the Open Weather API to get weather data
+seo:
+  title: "Open Weather API Integration - Get Weather Data in Your App"
+  description: "Learn how to integrate the Open Weather API into your applications. Step-by-step guide for fetching weather data, handling API responses, and building weather features."
+  keywords: ["api", "weather", "open weather", "web development", "javascript", "api integration"]
+  author: "Alex Lanthier"
+  image: "/open-weather-api.jpg"
+  url: "/open-weather-api"
 ---
 
 As an online tutor, I've noticed one of the most common APIs students are asked to learn is the Open Weather API. Often teachers want their students to utilize something specific (ajax, fetch, etc.) in order to call the API.

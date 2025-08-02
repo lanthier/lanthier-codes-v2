@@ -1,6 +1,13 @@
 ---
-title: What is Semantic HTML?
-description: Understanding semantic HTML elements and their importance
+title: Semantic HTML
+description: Understanding semantic HTML elements and their importance for accessibility and SEO
+seo:
+  title: "Semantic HTML - Building Accessible and SEO-Friendly Websites"
+  description: "Learn the importance of semantic HTML elements for web accessibility and SEO. Discover best practices for creating meaningful, structured web content."
+  keywords: ["html", "semantic", "accessibility", "seo", "web development", "html5"]
+  author: "Alex Lanthier"
+  image: "/semantic-html.jpg"
+  url: "/semantic-html"
 ---
 
 ## What is Semantic HTML?

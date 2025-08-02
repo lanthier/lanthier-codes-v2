@@ -1,8 +1,12 @@
 <script setup lang="ts">
-// Query all blog posts dynamically
-const { data: posts } = await useAsyncData("navigation", () =>
-  queryCollectionNavigation("content")
-);
+const route = useRoute();
+const { data: posts } = await useAsyncData(route.path, () =>
+  queryCollection("content")
+    .order("date", "DESC")
+    .select("title", "description", "date", "path")
+    .where('path', 'LIKE', '/blog/%')
+    .all()
+)
 
 // Set page metadata
 useHead({
@@ -17,7 +21,7 @@ useHead({
 </script>
 
 <template>
-  <div class="max-w-4xl mx-auto">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
     <div class="mb-12">
       <h1 class="text-3xl font-bold text-gray-900 dark:text-gray-100 mb-4">
         Blog

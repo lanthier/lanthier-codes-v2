@@ -1,6 +1,13 @@
 ---
 title: Projects
 description: A showcase of my software development projects and contributions
+seo:
+  title: "Projects - Alex Lanthier's Software Development Portfolio"
+  description: "Explore my software development projects including Vallenar JavaScript framework, Empacalo bundler, and other contributions to the developer community."
+  keywords: ["projects", "portfolio", "javascript", "typescript", "vallenar", "empacalo", "software development"]
+  author: "Alex Lanthier"
+  image: "/projects.jpg"
+  url: "/projects"
 ---
 
 # Projects

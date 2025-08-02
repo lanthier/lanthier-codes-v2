@@ -1,6 +1,13 @@
 ---
 title: Python List Tricks
-description: Cool features and tricks with Python lists
+description: Useful Python list manipulation techniques and tricks
+seo:
+  title: "Python List Tricks - Advanced List Manipulation Techniques"
+  description: "Discover powerful Python list manipulation tricks and techniques. Learn list comprehensions, slicing, filtering, and other advanced list operations."
+  keywords: ["python", "lists", "programming", "data structures", "python tricks", "list manipulation"]
+  author: "Alex Lanthier"
+  image: "/python-list-tricks.jpg"
+  url: "/python-list-tricks"
 ---
 
 My journey learning Python started with teaching a friend how to code. My friend had a Python class he needed to prepare for so I was willing to teach him all of the basics by learning Python myself. It wasn't until I stumbled upon list in Python when learning this language kept me up at night with excitement.

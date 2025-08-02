@@ -1,6 +1,13 @@
 ---
-title: C# Info Pattern for Web API Models
-description: How to structure C# models for API create and update operations
+title: C# Info Pattern
+description: Understanding and implementing the info pattern in C#
+seo:
+  title: "C# Info Pattern - Clean Architecture Design Pattern"
+  description: "Learn the C# info pattern for clean architecture and better code organization. Understand when and how to implement this design pattern in your C# applications."
+  keywords: ["csharp", "design patterns", "architecture", "dotnet", "programming", "clean code"]
+  author: "Alex Lanthier"
+  image: "/csharp-info-pattern.jpg"
+  url: "/csharp-info-pattern"
 ---
 
 If you are passing your Web API controller create methods objects that have an ID on them, you should rethink your strategy.
@@ -92,4 +99,4 @@ await PetService.PutPetAsync(id, pet);
 
 Notice how we no longer have any properties exposed on our object we use for the POST operation. It is best practice to follow a design pattern along these lines. We use **Pet** for all operations that from *from* the API *to* the consumer (GET). Then we use **PetInformation** for when we go *from* the consumer *to* the API (POST, PUT).
 
-![Info Object Example](../../assets/infoobject.png) 
+![Info Object Example](/infoobject.png) 

@@ -2,6 +2,13 @@
 title: Vue Composition API
 description: Understanding and using the Vue Composition API in Vue 2
 date: 2024-01-15
+seo:
+  title: "Vue Composition API - Complete Guide for Vue 2"
+  description: "Learn how to use the Vue Composition API in Vue 2 applications. Understand the benefits, installation process, and practical examples for better code organization."
+  keywords: ["vue", "composition api", "vue 2", "javascript", "frontend", "web development"]
+  author: "Alex Lanthier"
+  image: "/vue-composition-api.jpg"
+  url: "/vue-composition-api"
 ---
 
 ## What is the Vue Composition API?
@@ -34,7 +41,7 @@ You do not need to go through the trouble of upgrading your website to Vue 3 to 
 
 **Step 1: Install**
 
-```shell
+```bash
 yarn add @vue/composition-api
 ```
 

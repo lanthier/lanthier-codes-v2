@@ -9,13 +9,13 @@ Incorporating the two of these shouldn't be troublesome, though I found some iss
 
 Install your web component.
 
-```shell
+```bash
 npm i @lanthierlabs/nutrient-label
 ```
 
 For yarn:
 
-```shell
+```bash
 yarn add @lanthierlabs/nutrient-label
 ```
 

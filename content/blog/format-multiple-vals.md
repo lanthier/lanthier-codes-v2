@@ -1,6 +1,13 @@
 ---
-title: Formatting Multiple Values in Python Strings
-description: Different ways to format strings with multiple values in Python
+title: Format Multiple Values
+description: Techniques for formatting multiple values in different programming languages
+seo:
+  title: "Format Multiple Values - String Formatting Techniques"
+  description: "Learn various techniques for formatting multiple values across different programming languages. Master string interpolation, template literals, and formatting best practices."
+  keywords: ["programming", "string formatting", "javascript", "python", "csharp", "code examples"]
+  author: "Alex Lanthier"
+  image: "/format-multiple-values.jpg"
+  url: "/format-multiple-vals"
 ---
 
 As a tutor one of the most common beginner Python tasks I come across is formatting strings. In this post, I will show you a few different ways you can go about formatting your code and also how to support multiple values in your string formats. We will start with the `%` method and then move to the `.format()` function.

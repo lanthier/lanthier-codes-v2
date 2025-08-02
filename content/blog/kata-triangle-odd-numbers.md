@@ -1,13 +1,20 @@
 ---
-title: Kata - Triangle of Consecutive Odd Numbers
-description: Find the sum of odd numbers in a triangle row
+title: Kata Triangle Odd Numbers
+description: Solving the triangle of odd numbers kata with different approaches
+seo:
+  title: "Triangle of Odd Numbers Kata - Programming Challenge Solutions"
+  description: "Solve the triangle of odd numbers programming kata with multiple approaches. Learn different algorithms and problem-solving techniques for this mathematical challenge."
+  keywords: ["programming", "kata", "algorithms", "mathematics", "problem solving", "coding challenges"]
+  author: "Alex Lanthier"
+  image: "/triangle-odd-numbers.jpg"
+  url: "/kata-triangle-odd-numbers"
 ---
 
 ## Problem
 
 Given a triangle of consecutive odd numbers, such as this below:
 
-![Odd Number Triangle](../../assets/odd-number-triangle.png)
+![Odd Number Triangle](/odd-number-triangle.png)
 
 Write a function that finds the sums of the odd numbers in an entire row from the row index. In example:
 
@@ -54,7 +61,7 @@ start = (n * n) - (n - 1)
 | 4 | 13    |
 | 5 | 21    |
 
-![Odd Number Triangle Start Highlight](../../assets/odd-number-triangle-start-highlight.png)
+![Odd Number Triangle Start Highlight](/odd-number-triangle-start-highlight.png)
 
 ### Step 2
 

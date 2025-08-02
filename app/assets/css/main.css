@@ -20,3 +20,25 @@ body {
 .prose a:not(h2 a, h3 a, h4 a, h5 a, h6 a, button a) {
   @apply text-indigo-500 dark:text-indigo-400;
 }
+
+/* Mobile-specific fixes for content overflow */
+@media (max-width: 640px) {
+  .prose pre {
+    @apply text-xs;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  
+  .prose code {
+    @apply text-xs;
+    word-break: break-all;
+  }
+  
+  .prose {
+    @apply max-w-full;
+  }
+  
+  .prose img {
+    @apply max-w-full h-auto;
+  }
+}

@@ -61,7 +61,7 @@ I recommend JavaScript because, while you can code front ends in Python, JavaScr
 
 You can also learn JavaScript or C# to create cross-platform targeting applications. C# uses the [Xamarin](https://dotnet.microsoft.com/apps/xamarin) framework and JavaScript uses [React Native](https://reactnative.dev/). I recommend staying away from Xamarin both from personal experience and from a [February 2020 Stack Overflow survey](https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-other-frameworks-libraries-and-tools-dreaded3). I took a snapshot of the survey results below for "Most Dreaded Technology".
 
-![Stack Overflow Dreaded Technology Survey](../../assets/stack-overflow-dreaded.png)
+![Stack Overflow Dreaded Technology Survey](/stack-overflow-dreaded.png)
 
 ## Language Type and Classifications
 
@@ -99,7 +99,7 @@ Strongly typed languages like Java and C# force you to declare which type the va
 
 How difficult a language is maybe subjective, but there are some indicators and language "features" that can help us distinguish which programming languages are harder to learn than others. Once again I'm going to use a snapshot from the 2020 developer survey from stack overflow:
 
-![Stack Overflow Dreaded Language Survey](../../assets/stack-overflow-dreaded-language.png)
+![Stack Overflow Dreaded Language Survey](/stack-overflow-dreaded-language.png)
 
 VBA is an older language which was developed by Microsoft. Programmers write it for products and frameworks in Mircosoft's ecosystem. C# has largely replaced VBA. Objective-C is the primary language you use to write software for IOS and OS X, though Swift is starting to replace some of this. I would not recommend VBA, Objective-C, Perl, Assembly, C no PHP as your first language.
 
@@ -107,7 +107,7 @@ VBA is an older language which was developed by Microsoft. Programmers write it 
 
 Uncommon and older programming languages seem to offer the highest pay, according to the 2020 Stack Overflow Developer Survey. Personally, I couldn't handle working with Scala or Objective-C all day, but that's just me.
 
-![Stack Overflow Pay by Language Survey](../../assets/stack-overflow-pay-by-language.png)
+![Stack Overflow Pay by Language Survey](/stack-overflow-pay-by-language.png)
 
 ## So, Which Programming Language?
 

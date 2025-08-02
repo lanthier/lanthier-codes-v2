@@ -1,3 +1,15 @@
+---
+title: Writing
+description: Creative writing projects and fiction work
+seo:
+  title: "Writing - Alex Lanthier's Creative Fiction"
+  description: "Explore my creative writing projects including 'Beneath the Haze', a science fiction novel about a dystopian future with bioluminescent fungus and authoritarian technocracy."
+  keywords: ["writing", "fiction", "science fiction", "creative writing", "beneath the haze", "novel"]
+  author: "Alex Lanthier"
+  image: "/writing.jpg"
+  url: "/writing"
+---
+
 # Writing
 
 ## Beneath the Haze

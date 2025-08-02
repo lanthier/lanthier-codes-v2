@@ -1,6 +1,13 @@
 ---
 title: Home
 description: Alex Lanthier - Senior Software Engineer
+seo:
+  title: "Alex Lanthier - Senior Software Engineer"
+  description: "Senior Software Engineer based in Chicago. Passionate about web development, clean code, and sharing knowledge through writing and open source."
+  keywords: ["alex lanthier", "software engineer", "web development", "chicago", "programming", "vue", "javascript", "python"]
+  author: "Alex Lanthier"
+  image: "/me.jfif"
+  url: "/"
 ---
 
 <div class="flex flex-col items-center text-center max-w-2xl mx-auto">

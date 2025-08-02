@@ -3,7 +3,7 @@ title: Counting Table Cells in JavaScript
 description: How to count cells in HTML tables using JavaScript
 ---
 
-I came across a cool problem on a recent coding assessment: find the table in your HTML document that has the highest count of table cells. I will start by showing my algorithmic thought process, then I will get into some code for the algorithm. I will not yet publish the complete code solution in the unlikely event that someone finds this post and uses it in the same coding assessment. So the method I will show you is how to count all of the cells of a single table.
+A cool problem on a coding assessment that might through you off guard if you're used to working with JavaScript arrays. How do we count cells in HTML tables?
 
 ## Simple Algorithm
 

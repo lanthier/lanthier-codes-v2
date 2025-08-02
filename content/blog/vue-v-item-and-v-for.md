@@ -1,6 +1,13 @@
 ---
 title: Vue v-item and v-for
-description: How to properly use v-for with v-if in Vue.js
+description: Understanding Vue's v-item directive and its relationship with v-for
+seo:
+  title: "Vue v-item and v-for - Complete Guide to List Rendering"
+  description: "Master Vue's v-item directive and v-for for efficient list rendering. Learn best practices for dynamic content generation and component iteration in Vue applications."
+  keywords: ["vue", "v-for", "v-item", "javascript", "frontend", "vue components", "list rendering"]
+  author: "Alex Lanthier"
+  image: "/vue-v-item-v-for.jpg"
+  url: "/vue-v-item-and-v-for"
 ---
 
 While iterating through lists in Vue.js, you may have come across a certain annoyance before:
