@@ -8,6 +8,16 @@
   --color-cream: #fcf5c7;
   --color-blue: #a0ced9;
   --color-green: #adf7b6;
+  --color-blue-hover: #8bb8c3;
+}
+
+/* Alternative color definitions using CSS custom properties */
+:root {
+  --color-peach: #ffc09f;
+  --color-yellow: #ffee93;
+  --color-cream: #fcf5c7;
+  --color-blue: #a0ced9;
+  --color-green: #adf7b6;
 }
 
 @source "../../../content/**/*";
@@ -18,7 +28,7 @@ body {
 }
 
 .prose a:not(h2 a, h3 a, h4 a, h5 a, h6 a, button a) {
-  @apply text-indigo-500 dark:text-indigo-400;
+  @apply text-blue-600 dark:text-blue;
 }
 
 /* Mobile-specific fixes for content overflow */

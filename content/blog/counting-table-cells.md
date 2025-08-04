@@ -1,6 +1,14 @@
 ---
 title: Counting Table Cells in JavaScript
 description: How to count cells in HTML tables using JavaScript
+date: 2020-08-17T05:00.000-05:00
+seo:
+  title: "How to Count Cells in a Table - JavaScript Tutorial"
+  description: "JavaScript method of counting the amount of cells in an HTML table. Learn how to traverse table rows and count cells efficiently."
+  keywords: ["javascript", "html", "tables", "dom manipulation", "web development", "counting cells"]
+  author: "Alex Lanthier"
+  image: "/counting-table-cells.jpg"
+  url: "/counting-table-cells"
 ---
 
 A cool problem on a coding assessment that might through you off guard if you're used to working with JavaScript arrays. How do we count cells in HTML tables?

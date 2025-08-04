@@ -30,8 +30,8 @@ const isActive = (path: string) => {
               :class="[
                 'group relative w-full flex items-center gap-1.5 font-medium text-md transition-all duration-200 ease-in-out rounded-lg px-3 py-2',
                 isActive(link.path) 
-                  ? 'bg-peach/40 text-highlighted' 
-                  : 'text-highlighted hover:bg-peach/20 hover:text-highlighted'
+                  ? 'bg-peach/40 dark:bg-green/40 text-highlighted' 
+                  : 'text-highlighted hover:bg-peach/20 hover:text-highlighted dark:hover:bg-green/20'
               ]"
             >
               {{ link.title }}

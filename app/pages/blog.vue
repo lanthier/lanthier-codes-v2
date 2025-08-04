@@ -8,6 +8,13 @@ const { data: posts } = await useAsyncData(route.path, () =>
     .all()
 )
 
+// Computed function to format dates without timezone conversion
+const formatDate = (dateString: string) => {
+  const date = new Date(dateString);
+  const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+  return `${months[date.getUTCMonth()]} ${date.getUTCDate()}, ${date.getUTCFullYear()}`;
+}
+
 // Set page metadata
 useHead({
   title: "Blog - Alex Lanthier",
@@ -38,26 +45,35 @@ useHead({
       <article v-for="post in posts" :key="post.path" class="group">
         <NuxtLink :to="post.path" class="block">
           <div
-            class="bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 p-6 hover:shadow-lg transition-all duration-200 hover:border-blue-300 dark:hover:border-blue-600"
+            class="bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 p-6 hover:shadow-lg transition-all duration-200 hover:border-blue-300 dark:hover:border-blue"
           >
             <h2
-              class="text-lg font-semibold text-gray-900 dark:text-gray-100 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors mb-3"
+              class="text-lg font-semibold text-gray-900 dark:text-gray-100 group-hover:text-blue-600 dark:group-hover:text-blue transition-colors mb-3"
             >
               {{ post.title }}
             </h2>
             <p
-              class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-4"
+              class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-3"
             >
               {{ post.description || "No description available." }}
             </p>
-            <div
-              class="flex items-center text-sm text-blue-600 dark:text-blue-400 group-hover:text-blue-700 dark:group-hover:text-blue-300 transition-colors"
-            >
-              Read more
-              <Icon
-                name="i-lucide-arrow-right"
-                class="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform"
-              />
+            <div class="flex items-center justify-between mb-4">
+              <div
+                class="flex items-center text-sm text-blue-600 dark:text-blue group-hover:text-blue-700 dark:group-hover:text-blue-hover transition-colors"
+              >
+                Read more
+                <Icon
+                  name="i-lucide-arrow-right"
+                  class="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform"
+                />
+              </div>
+              <time 
+                v-if="post.date" 
+                :datetime="post.date"
+                class="text-xs text-gray-500 dark:text-gray-400"
+              >
+                {{ formatDate(post.date) }}
+              </time>
             </div>
           </div>
         </NuxtLink>

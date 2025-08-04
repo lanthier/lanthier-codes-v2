@@ -1,6 +1,7 @@
 ---
 title: Format Multiple Values
 description: Techniques for formatting multiple values in different programming languages
+date: 2020-08-20T04:20:00.000-05:00
 seo:
   title: "Format Multiple Values - String Formatting Techniques"
   description: "Learn various techniques for formatting multiple values across different programming languages. Master string interpolation, template literals, and formatting best practices."

@@ -1,6 +1,7 @@
 ---
 title: Kata Triangle Odd Numbers
 description: Solving the triangle of odd numbers kata with different approaches
+date: 2020-09-02T05:00:00.000-05:00
 seo:
   title: "Triangle of Odd Numbers Kata - Programming Challenge Solutions"
   description: "Solve the triangle of odd numbers programming kata with multiple approaches. Learn different algorithms and problem-solving techniques for this mathematical challenge."

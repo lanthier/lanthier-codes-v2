@@ -1,6 +1,7 @@
 ---
 title: HTML Image Clickable
 description: How to make images clickable in HTML
+date: 2020-01-13T06:00:00.000-05:00
 seo:
   title: "Make Images Clickable in HTML - Complete Guide"
   description: "Learn how to make images clickable in HTML using anchor tags, CSS, and JavaScript. Discover best practices for creating interactive image elements."

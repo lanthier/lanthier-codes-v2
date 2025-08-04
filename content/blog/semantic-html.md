@@ -1,6 +1,7 @@
 ---
 title: Semantic HTML
 description: Understanding semantic HTML elements and their importance for accessibility and SEO
+date: 2020-09-05T05:00:00.000-05:00
 seo:
   title: "Semantic HTML - Building Accessible and SEO-Friendly Websites"
   description: "Learn the importance of semantic HTML elements for web accessibility and SEO. Discover best practices for creating meaningful, structured web content."

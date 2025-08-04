@@ -1,6 +1,14 @@
 ---
 title: Which Programming Language Should You Learn First?
 description: An in-depth analysis of programming languages for beginners
+date: 2020-09-05T05:00.000-05:00
+seo:
+  title: "Which Programming Language Should I Learn First? - Complete Guide"
+  description: "In 2020, what programming language should you learn first? Get an in-depth analysis of programming languages for beginners with industry insights and recommendations."
+  keywords: ["programming", "programming languages", "python", "javascript", "java", "csharp", "beginners", "coding"]
+  author: "Alex Lanthier"
+  image: "/which-programming-language.jpg"
+  url: "/which-language"
 ---
 
 Let me skip the anticipation. It does not *really* matter which programming language you learn first. At least, that is what you will hear from most forum posters and other bloggers in this space. But what if you had to choose? Maybe you only want to learn one programming language, or perhaps you are switching careers and need to know which programming language will get you on the fast track. Either way, I will do an in-depth analysis on some programming languages.

@@ -1,6 +1,14 @@
 ---
 title: Gridsome Search with Buefy and Flexsearch
 description: How to set up Flexsearch with Buefy's autocomplete in Gridsome
+date: 2020-07-27T05:00:00.000-05:00
+seo:
+  title: "Gridsome Flexsearch and Buefy Autocomplete - Complete Guide"
+  description: "Hooking up the gridsome flexsearch plugin to a b-autocomplete in Buefy. Learn how to implement search functionality in your Gridsome site."
+  keywords: ["gridsome", "buefy", "flexsearch", "vue", "javascript", "search", "autocomplete"]
+  author: "Alex Lanthier"
+  image: "/gridsome-search-buefy.jpg"
+  url: "/gridsome-search-buefy"
 ---
 
 Hooking up flexsearch in your gridsome site can really take your website to the next level. Here I will show you how you can hook up flexsearch to your `<b-autocomplete>` elements. We will start with basics on hooking up the gridsome flexsearch plugin then move into a specific implementation with Buefy.

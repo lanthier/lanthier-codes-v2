@@ -1,6 +1,14 @@
 ---
 title: The HTTP Hydration Parameter Pattern
 description: Efficiently returning extra data in APIs using hydration parameters
+date: 2020-08-26T05:00:00.000-05:00
+seo:
+  title: "HTTP Hydration Parameters - API Design Pattern"
+  description: "A pattern you can use to for your APIs. Learn how to efficiently return extra data in APIs using hydration parameters for better performance."
+  keywords: ["api", "http", "csharp", "dotnet", "web api", "performance", "design patterns"]
+  author: "Alex Lanthier"
+  image: "/hydrate-parameter.jpg"
+  url: "/hydrate-parameter"
 ---
 
 The HTTP hydration parameter pattern is used for when you want "extra" data on one of your objects, but don't always need that data. You may have an API that returns an InventoryItem that is tied with its related Suppliers. You could configure your API method to optionally return that Suppliers with the InventoryItem.

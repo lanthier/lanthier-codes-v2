@@ -1,6 +1,7 @@
 ---
 title: What is CSS Specificity?
 description: Understanding CSS specificity, rule conflicts, and how browsers choose which style to apply
+date: 2020-08-13T05:00.000-05:00
 seo:
   title: "CSS Specificity Explained - How Browsers Choose Styles"
   description: "Master CSS specificity with this comprehensive guide. Learn how browsers resolve style conflicts, calculate specificity scores, and apply the most specific CSS rules."

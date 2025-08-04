@@ -1,6 +1,14 @@
 ---
 title: Using Lit Element with Gridsome
 description: How to use Lit Element web components in a Gridsome project
+date: 2020-09-01T05:00:00.000-05:00
+seo:
+  title: "Using Lit Elements with Gridsome - Web Components Integration"
+  description: "After your create your own web component, how can we incorporate these elements into Gridsome? Learn how to integrate Lit Element web components with Gridsome."
+  keywords: ["lit element", "gridsome", "web components", "vue", "javascript", "frontend"]
+  author: "Alex Lanthier"
+  image: "/lit-element-gridsome.jpg"
+  url: "/lit-element-gridsome"
 ---
 
 [Lit element](https://lit-element.polymer-project.org/) is a useful library for creating web components. [Gridsome](https://gridsome.org/) is a [jamstack framework](https://jamstack.org/), a static site generator, for Vue.js.

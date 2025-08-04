@@ -1,6 +1,7 @@
 ---
 title: Vue v-item and v-for
 description: Understanding Vue's v-item directive and its relationship with v-for
+date: 2020-02-13T06:00.000-05:00
 seo:
   title: "Vue v-item and v-for - Complete Guide to List Rendering"
   description: "Master Vue's v-item directive and v-for for efficient list rendering. Learn best practices for dynamic content generation and component iteration in Vue applications."

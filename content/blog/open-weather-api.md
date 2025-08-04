@@ -1,6 +1,7 @@
 ---
 title: Open Weather API
 description: How to use the Open Weather API to get weather data
+date: 2020-08-20T05:00:00.000-05:00
 seo:
   title: "Open Weather API Integration - Get Weather Data in Your App"
   description: "Learn how to integrate the Open Weather API into your applications. Step-by-step guide for fetching weather data, handling API responses, and building weather features."

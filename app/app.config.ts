@@ -3,6 +3,7 @@ export default defineAppConfig({
     github: 'Lanthier',
     linkedin: 'alexander-lanthier',
     bluesky: 'alexlanthier.bsky.social',
+    substack: 'https://lanthier.substack.com',
   },
   icon: {
     aliases: {

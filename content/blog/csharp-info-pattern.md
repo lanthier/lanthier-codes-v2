@@ -1,6 +1,7 @@
 ---
 title: C# Info Pattern
 description: Understanding and implementing the info pattern in C#
+date: 2020-03-21T05:00.000-05:00
 seo:
   title: "C# Info Pattern - Clean Architecture Design Pattern"
   description: "Learn the C# info pattern for clean architecture and better code organization. Understand when and how to implement this design pattern in your C# applications."

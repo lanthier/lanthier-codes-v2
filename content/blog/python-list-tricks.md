@@ -1,6 +1,7 @@
 ---
 title: Python List Tricks
 description: Useful Python list manipulation techniques and tricks
+date: 2020-08-26T05:00:00.000-05:00
 seo:
   title: "Python List Tricks - Advanced List Manipulation Techniques"
   description: "Discover powerful Python list manipulation tricks and techniques. Learn list comprehensions, slicing, filtering, and other advanced list operations."
