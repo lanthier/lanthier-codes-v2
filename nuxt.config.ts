@@ -15,7 +15,7 @@ export default defineNuxtConfig({
   ssr: true,
   nitro: {
     prerender: {
-      routes: ['/', '/feed.json', '/feeds.opml']
+      routes: ['/']
     }
   },
 
