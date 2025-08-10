@@ -8,6 +8,7 @@
   "license": "MIT",
   "scripts": {
     "prebuild": "node scripts/build-feed.mjs",
+    "pregenerate": "node scripts/build-feed.mjs",
     "dev": "nuxi dev",
     "build": "nuxi build",
     "generate": "nuxi generate",

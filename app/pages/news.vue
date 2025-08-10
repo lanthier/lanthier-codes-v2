@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { computed } from 'vue';
-
 interface FeedItem {
   id: string;
   title: string;
@@ -15,7 +13,15 @@ interface FeedData {
   items: FeedItem[];
 }
 
-const { data } = await useFetch<FeedData>('/feed.json', { key: 'feed' });
+// Use useAsyncData which is better for static generation
+const { data } = await useAsyncData('feed', async () => {
+  try {
+    return await $fetch<FeedData>('/feed.json');
+  } catch (error) {
+    console.warn('Feed not available during build, will fetch at runtime');
+    return { items: [] };
+  }
+});
 
 const items = computed(() => {
   return data.value?.items || [];
