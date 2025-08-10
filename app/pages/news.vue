@@ -59,7 +59,7 @@ useHead({
   <main class="max-w-3xl mx-auto p-4 space-y-4">
     <!-- Hero image -->
     <div class="text-center">
-      <img src="/me-coffee.png" alt="Alex Lanthier with coffee" class="mx-auto rounded-lg shadow-lg max-w-full h-auto" />
+      <img src="/me-coffee.png" alt="Alex Lanthier with coffee" class="mx-auto rounded-lg shadow-lg max-w-xs h-auto" />
     </div>
 
     <header class="space-y-2">
