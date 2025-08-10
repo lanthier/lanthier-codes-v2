@@ -13,19 +13,20 @@ interface FeedData {
   items: FeedItem[];
 }
 
-// Use useAsyncData which is better for static generation
-const { data } = await useAsyncData('feed', async () => {
+// Use static data instead of fetching during build
+const feedData = ref<FeedData>({ items: [] });
+
+// Fetch feed data at runtime
+onMounted(async () => {
   try {
-    return await $fetch<FeedData>('/feed.json');
+    const result = await $fetch<FeedData>('/feed.json');
+    feedData.value = result;
   } catch (error) {
-    console.warn('Feed not available during build, will fetch at runtime');
-    return { items: [] };
+    console.warn('Could not load feed:', error);
   }
 });
 
-const items = computed(() => {
-  return data.value?.items || [];
-});
+const items = computed(() => feedData.value.items || []);
 
 // Set page metadata for social media
 useHead({

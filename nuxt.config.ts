@@ -12,10 +12,10 @@ export default defineNuxtConfig({
   colorMode: { classSuffix: '' },
 
   // Static site generation
-  ssr: true,
+  ssr: false,
   nitro: {
     prerender: {
-      routes: ['/']
+      routes: ['/', '/news']
     }
   },
 
