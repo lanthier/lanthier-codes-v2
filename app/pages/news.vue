@@ -26,6 +26,32 @@ const { data } = await useAsyncData('feed', async () => {
 const items = computed(() => {
   return data.value?.items || [];
 });
+
+// Set page metadata for social media
+useHead({
+  title: 'My Under-Covered News Feed',
+  meta: [
+    { name: 'description', content: 'Critical politics, corporate scrutiny, movements, and deep analysis.' },
+    
+    // Open Graph / Facebook
+    { property: 'og:type', content: 'website' },
+    { property: 'og:title', content: 'Under-Covered Wire - Critical News & Analysis' },
+    { property: 'og:description', content: 'Critical politics, corporate scrutiny, movements, and deep analysis. Boost what mainstream ignores.' },
+    { property: 'og:image', content: '/me-coffee.png' },
+    { property: 'og:image:width', content: '1200' },
+    { property: 'og:image:height', content: '630' },
+    { property: 'og:url', content: 'https://lanthier.codes/news' },
+    
+    // Twitter
+    { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'twitter:title', content: 'Under-Covered Wire - Critical News & Analysis' },
+    { name: 'twitter:description', content: 'Critical politics, corporate scrutiny, movements, and deep analysis. Boost what mainstream ignores.' },
+    { name: 'twitter:image', content: '/me-coffee.png' },
+    
+    // Additional meta
+    { name: 'keywords', content: 'news, politics, corporate scrutiny, global south, chile, critical analysis, under-covered news' }
+  ]
+});
 </script>
 
 <template>
