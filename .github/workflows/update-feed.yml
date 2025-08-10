@@ -48,10 +48,7 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Update news feed
-        run: node scripts/build-feed.mjs
-
-      - name: Build
+      - name: Build with feed generation
         run: pnpm generate
         env:
           NODE_ENV: production
