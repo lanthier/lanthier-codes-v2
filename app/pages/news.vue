@@ -62,9 +62,8 @@ useHead({
       <img src="/me-coffee.png" alt="Alex Lanthier with coffee" class="mx-auto rounded-lg shadow-lg max-w-xs h-auto" />
     </div>
 
-    <header class="space-y-2">
-      <h1 class="text-2xl font-bold">Under-Covered Wire</h1>
-      <p class="text-xs opacity-70">Built at deploy · <a class="underline" href="/feeds.opml">OPML</a></p>
+    <header class="space-y-2 text-center">
+      <h1 class="text-2xl font-bold">My Under-Covered News Feed</h1>
     </header>
 
     <ul class="space-y-3">
