@@ -57,6 +57,11 @@ useHead({
 
 <template>
   <main class="max-w-3xl mx-auto p-4 space-y-4">
+    <!-- Hero image -->
+    <div class="text-center">
+      <img src="/me-coffee.png" alt="Alex Lanthier with coffee" class="mx-auto rounded-lg shadow-lg max-w-full h-auto" />
+    </div>
+
     <header class="space-y-2">
       <h1 class="text-2xl font-bold">Under-Covered Wire</h1>
       <p class="text-xs opacity-70">Built at deploy · <a class="underline" href="/feeds.opml">OPML</a></p>
