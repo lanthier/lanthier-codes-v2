@@ -1,0 +1,25 @@
+{
+  "altSources": [
+    { "id": "aljazeera", "url": "https://www.aljazeera.com/xml/rss/all.xml", "region": "MENA", "weight": 1.0 },
+    { "id": "mee", "url": "https://www.middleeasteye.net/rss.xml", "region": "MENA", "weight": 1.0 },
+    { "id": "dabangasudan", "url": "https://www.dabangasudan.org/en/feed", "region": "Africa", "weight": 1.2 },
+    { "id": "peoplesdispatch", "url": "https://peoplesdispatch.org/feed/", "region": "Global South", "weight": 1.0 },
+    { "id": "africanarguments", "url": "https://africanarguments.org/feed/", "region": "Africa", "weight": 1.0 },
+    { "id": "palestinechronicle", "url": "https://www.palestinechronicle.com/feed/", "region": "MENA", "weight": 1.2 },
+    { "id": "globalvoices", "url": "https://globalvoices.org/feeds/", "region": "Global", "weight": 0.9 },
+    { "id": "democracynow", "url": "https://www.democracynow.org/podcast.xml", "region": "Global", "weight": 0.8 },
+    { "id": "bellingcat", "url": "https://www.bellingcat.com/feed/", "region": "Global", "weight": 0.7 }
+  ],
+  "mainstreamFeeds": [
+    { "id": "ap", "url": "https://apnews.com/hub/apf-topnews?utm_source=apnews&utm_medium=rss" },
+    { "id": "reuters", "url": "https://www.reuters.com/rssFeed/topNews" },
+    { "id": "nyt", "url": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml" },
+    { "id": "wp", "url": "https://feeds.washingtonpost.com/rss/national" },
+    { "id": "cnn", "url": "http://rss.cnn.com/rss/edition.rss" },
+    { "id": "wsj", "url": "https://feeds.a.dj.com/rss/RSSWorldNews.xml" },
+    { "id": "nbc", "url": "https://www.nbcnews.com/rss" },
+    { "id": "guardianus", "url": "https://www.theguardian.com/us-news/rss" },
+    { "id": "abc", "url": "https://abcnews.go.com/abcnews/topstories" },
+    { "id": "cbs", "url": "https://www.cbsnews.com/latest/rss/main" }
+  ]
+}

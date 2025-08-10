@@ -1,0 +1,37 @@
+{
+  "protestTerms": [
+    "protest","strike","walkout","picket","march","rally","sit-in","occupation","boycott",
+    "clashes","tear gas","riot","union","ceasefire","blockade","encampment","repression","detained","brutality"
+  ],
+  "usCriticalPolitics": [
+    "ice detention","cbp","dhs","family detention","riker","rikers","solitary","parole program",
+    "book ban","anti-protest","anti-bds","anti-trans","prison conditions","police misconduct","qualified immunity",
+    "town hall","school board","gerrymander","vote suppression","ballot access",
+    "antitrust","ftc","doj","sec","fcc","data privacy","section 230","encryption","face recognition"
+  ],
+  "corporateWatchlist": [
+    "amazon","google","alphabet","microsoft","meta","x corp","twitter","tesla","spacex",
+    "palantir","anduril","clearview","openai","anthropic","nso","israel ai","oracle","ibm","oracle",
+    "cisco","uber","lyft","spotify","bytedance","tiktok","apple","nvidia","intel","broadcom","palantir"
+  ],
+  "corpRiskTerms": [
+    "lobbying","dark money","super pac","think tank","trade association",
+    "data center","water use","toxic","pollution","emissions","surveillance","biosecurity","union-busting",
+    "contract with","no-bid","exclusive deal","land grab","displacement","tax abatement"
+  ],
+  "thinkpieceMarkers": [
+    "analysis","explainer","deep dive","investigation","long read","opinion","essay","special report","feature"
+  ],
+  "geoChile": [
+    "chile","santiago","valparaíso","araucanía","mapuche","boric","codelco","sqm","antofagasta","lithium","atacama"
+  ],
+  "geoGlobalSouth": [
+    "sudan","south sudan","ethiopia","eritrea","somalia","dr congo","sahel","mali","niger","burkina","gaza","west bank",
+    "yemen","lebanon","syria","iraq","pakistan","bangladesh","india","sri lanka","myanmar",
+    "bolivia","peru","ecuador","colombia","venezuela","argentina","brazil","paraguay","uruguay","mexico",
+    "indonesia","philippines","vietnam","cambodia","laos","thailand","nepal"
+  ],
+  "suppressionTerms": [
+    "press release","sponsored","partner content","brand studio","advertorial"
+  ]
+}

@@ -9,6 +9,10 @@ dist
 .DS_Store
 .data
 
+# Generated feed files (built during CI/CD)
+public/feed.json
+public/feeds.opml
+
 # Yarn
 .yarn/cache
 .yarn/*state*
